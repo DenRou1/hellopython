@@ -1,4 +1,4 @@
-Wimport discord, time, random, sys, os
+import discord, time, random, sys, os
 from discord.ext import commands
 
 intents = discord.Intents.all()
